@@ -15,7 +15,7 @@ To create the tidy dataset the following actions are taken
    * Replace starting t with Time
    * Replace starting f with Frequency
    * Replace Acc with Acceleration
-   * Rempve -
+   * Remove all '-'
    * Remove second Body in BobyBody
 6. Create a new tidy dataset with the average of each variable for each activity and each subject
 
