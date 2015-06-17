@@ -26,108 +26,108 @@ The different types of activites are:
 The following measurements was recorded:
 
 * TimeBodyAcceleration
-..* Mean X
-..* Mean Y
-..* Mean Z
-..* Std X
-..* Std Y
-..* Std Z
+  * Mean X
+  * Mean Y
+  * Mean Z
+  * Std X
+  * Std Y
+  * Std Z
 
 * TimeGravityAcceleration
-..* Mean X
-..* Mean Y
-..* Mean Z
-..* Std X
-..* Std Y
-..* Std Z
+  * Mean X
+  * Mean Y
+  * Mean Z
+  * Std X
+  * Std Y
+  * Std Z
 
 * TimeBodyAccelerationJerk
-..* Mean X
-..* Mean Y
-..* Mean Z
-..* Std X
-..* Std Y
-..* Std Z
+  * Mean X
+  * Mean Y
+  * Mean Z
+  * Std X
+  * Std Y
+  * Std Z
 
 * TimeBodyGyro
-..* Mean X
-..* Mean Y
-..* Mean Z
-..* Std X
-..* Std Y
-..* Std Z
+  * Mean X
+  * Mean Y
+  * Mean Z
+  * Std X
+  * Std Y
+  * Std Z
 
 * TimeBodyGyroJerk
-..* Mean X
-..* Mean Y
-..* Mean Z
-..* Std X
-..* Std Y
-..* Std Z
+  * Mean X
+  * Mean Y
+  * Mean Z
+  * Std X
+  * Std Y
+  * Std Z
 
 
 * TimeBodyAccelerationMag
-..* Mean
-..* Std
+  * Mean
+  * Std
 
 * TimeGravityAccelerationMag
-..* Mean
-..* Std
+  * Mean
+  * Std
 
 * TimeBodyAccelerationJerkMag
-..* Mean
-..* Std
+  * Mean
+  * Std
 
 * TimeBodyGyroMagMean
-..* Mean
-..* Std
+  * Mean
+  * Std
 
 * TimeBodyGyroJerkMag
-..* Mean
-..* Std
+  * Mean
+  * Std
 
 * FrequencyBodyAcceleration
-..* Mean X
-..* Mean Y
-..* Mean Z
-..* Std X
-..* Std Y
-..* Std Z
+  * Mean X
+  * Mean Y
+  * Mean Z
+  * Std X
+  * Std Y
+  * Std Z
 
 * FrequencyBodyAccelerationJerk
-..* Mean X
-..* Mean Y
-..* Mean Z
-..* Std X
-..* Std Y
-..* Std Z
+  * Mean X
+  * Mean Y
+  * Mean Z
+  * Std X
+  * Std Y
+  * Std Z
 
 * FrequencyBodyGyro
-..* Mean X
-..* Mean Y
-..* Mean Z
-..* Std X
-..* Std Y
-..* Std Z
+  * Mean X
+  * Mean Y
+  * Mean Z
+  * Std X
+  * Std Y
+  * Std Z
 
 * FrequencyBodyAccelerationMag
-..* Mean X
-..* Mean Y
-..* Mean Z
-..* Std X
-..* Std Y
-..* Std Z
+  * Mean X
+  * Mean Y
+  * Mean Z
+  * Std X
+  * Std Y
+  * Std Z
 
 * FrequencyBodyBodyAccelerationJerkMag
-..* Mean
-..* Std
+  * Mean
+  * Std
 
 
 * FrequencyBodyGyroMag
-..* Mean
-..* Std
+  * Mean
+  * Std
 
-FrequencyBodyGyroJerkMag
-..* Mean
-..* Std
+* FrequencyBodyGyroJerkMag
+  * Mean
+  * Std
 
