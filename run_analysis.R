@@ -67,8 +67,14 @@ names(data$subject) <- "Subject"
 
 #### Join everything in one single dataframe ####
 
-tidyData <- data.frame(data)
+tidyData <- cbind(data$subject,data$features,data$activity)
 
+
+names(tidyData) <- gsub("^t", "Time", names(tidyData))
+names(tidyData) <- gsub("^f", "Frequency", names(tidyData))
+names(tidyData) <- gsub("Acc", "Acceleration", names(tidyData))
+names(tidyData) <- gsub("-", "", names(tidyData))
+names(tidyData) <- gsub("BodyBody", "Body", names(tidyData))
 
 #### Step 5 : Creates a second, independent tidy data set with the average ####
 #### of each variable for each activity and each subject.                  ####
@@ -77,6 +83,7 @@ tidyData <- data.frame(data)
 variables <- !grepl("Subject|Activity",names(tidyData)) 
 meanData <- ddply(tidyData,.(Subject,Activity),
                   function(x) {colMeans(x[,variables])})
+
 
 #### Write resulting data to file ####
 
